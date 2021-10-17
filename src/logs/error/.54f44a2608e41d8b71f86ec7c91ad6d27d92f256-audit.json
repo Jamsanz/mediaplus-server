@@ -1,0 +1,14 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "C:\\Users\\imadu\\Desktop\\Tools\\mediaplus\\server\\src\\logs\\error\\.54f44a2608e41d8b71f86ec7c91ad6d27d92f256-audit.json",
+    "files": [
+        {
+            "date": 1633884266780,
+            "name": "C:\\Users\\imadu\\Desktop\\Tools\\mediaplus\\server\\src\\logs\\error\\2021-10-10.log",
+            "hash": "6ea98ba9c4670556d6103081d9f03f37"
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+2021-10-10 18:08:43 error: [POST] /contacts >> StatusCode:: 400, Message:: property service should not exist
+2021-10-10 18:10:02 error: [POST] /contacts >> StatusCode:: 400, Message:: property service should not exist
+2021-10-10 18:10:11 error: [POST] /contacts >> StatusCode:: 400, Message:: property service should not exist
+2021-10-10 18:14:42 error: [POST] /contacts >> StatusCode:: 400, Message:: property service should not exist
+2021-10-10 18:16:58 error: [POST] /contacts >> StatusCode:: 400, Message:: property service should not exist
+2021-10-10 18:18:23 error: [POST] /contacts >> StatusCode:: 400, Message:: property service should not exist
+2021-10-10 18:19:13 error: [POST] /contacts >> StatusCode:: 400, Message:: property service should not exist
+2021-10-10 18:20:27 error: [POST] /contacts >> StatusCode:: 400, Message:: property service should not exist
+2021-10-10 18:22:15 error: [POST] /contacts >> StatusCode:: 400, Message:: property service should not exist

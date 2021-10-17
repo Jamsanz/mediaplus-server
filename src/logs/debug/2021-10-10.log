@@ -1,0 +1,90 @@
+2021-10-10 17:44:40 info: =================================
+2021-10-10 17:44:40 info: ======= ENV: development =======
+2021-10-10 17:44:40 info: 🚀 App listening on the port 5000
+2021-10-10 17:44:40 info: =================================
+2021-10-10 18:08:43 info: [0mOPTIONS /contacts [32m204[0m 3.913 ms - 0[0m
+2021-10-10 18:08:43 error: [POST] /contacts >> StatusCode:: 400, Message:: property service should not exist
+2021-10-10 18:08:43 info: [0mPOST /contacts [33m400[0m 712.588 ms - 47[0m
+2021-10-10 18:10:02 info: [0mOPTIONS /contacts [32m204[0m 0.408 ms - 0[0m
+2021-10-10 18:10:02 error: [POST] /contacts >> StatusCode:: 400, Message:: property service should not exist
+2021-10-10 18:10:02 info: [0mPOST /contacts [33m400[0m 9.942 ms - 47[0m
+2021-10-10 18:10:11 info: [0mOPTIONS /contacts [32m204[0m 0.410 ms - 0[0m
+2021-10-10 18:10:11 error: [POST] /contacts >> StatusCode:: 400, Message:: property service should not exist
+2021-10-10 18:10:11 info: [0mPOST /contacts [33m400[0m 3.473 ms - 47[0m
+2021-10-10 18:14:13 info: =================================
+2021-10-10 18:14:13 info: ======= ENV: development =======
+2021-10-10 18:14:13 info: 🚀 App listening on the port 5000
+2021-10-10 18:14:13 info: =================================
+2021-10-10 18:14:37 info: =================================
+2021-10-10 18:14:37 info: ======= ENV: development =======
+2021-10-10 18:14:37 info: 🚀 App listening on the port 5000
+2021-10-10 18:14:37 info: =================================
+2021-10-10 18:14:42 info: [0mOPTIONS /contacts [32m204[0m 3.820 ms - 0[0m
+2021-10-10 18:14:42 error: [POST] /contacts >> StatusCode:: 400, Message:: property service should not exist
+2021-10-10 18:14:43 info: [0mPOST /contacts [33m400[0m 72.479 ms - 47[0m
+2021-10-10 18:15:17 info: =================================
+2021-10-10 18:15:17 info: ======= ENV: development =======
+2021-10-10 18:15:17 info: 🚀 App listening on the port 5000
+2021-10-10 18:15:17 info: =================================
+2021-10-10 18:16:34 info: =================================
+2021-10-10 18:16:34 info: ======= ENV: development =======
+2021-10-10 18:16:34 info: 🚀 App listening on the port 5000
+2021-10-10 18:16:34 info: =================================
+2021-10-10 18:16:57 info: [0mOPTIONS /contacts [32m204[0m 4.522 ms - 0[0m
+2021-10-10 18:16:58 error: [POST] /contacts >> StatusCode:: 400, Message:: property service should not exist
+2021-10-10 18:16:58 info: [0mPOST /contacts [33m400[0m 54.081 ms - 47[0m
+2021-10-10 18:17:38 info: =================================
+2021-10-10 18:17:38 info: ======= ENV: development =======
+2021-10-10 18:17:38 info: 🚀 App listening on the port 5000
+2021-10-10 18:17:38 info: =================================
+2021-10-10 18:18:18 info: =================================
+2021-10-10 18:18:18 info: ======= ENV: development =======
+2021-10-10 18:18:18 info: 🚀 App listening on the port 5000
+2021-10-10 18:18:18 info: =================================
+2021-10-10 18:18:23 info: [0mOPTIONS /contacts [32m204[0m 4.175 ms - 0[0m
+2021-10-10 18:18:23 error: [POST] /contacts >> StatusCode:: 400, Message:: property service should not exist
+2021-10-10 18:18:23 info: [0mPOST /contacts [33m400[0m 49.689 ms - 47[0m
+2021-10-10 18:19:13 info: [0mOPTIONS /contacts [32m204[0m 0.465 ms - 0[0m
+2021-10-10 18:19:13 error: [POST] /contacts >> StatusCode:: 400, Message:: property service should not exist
+2021-10-10 18:19:13 info: [0mPOST /contacts [33m400[0m 15.145 ms - 47[0m
+2021-10-10 18:20:27 info: [0mOPTIONS /contacts [32m204[0m 0.320 ms - 0[0m
+2021-10-10 18:20:27 error: [POST] /contacts >> StatusCode:: 400, Message:: property service should not exist
+2021-10-10 18:20:27 info: [0mPOST /contacts [33m400[0m 6.336 ms - 47[0m
+2021-10-10 18:21:31 info: =================================
+2021-10-10 18:21:31 info: ======= ENV: development =======
+2021-10-10 18:21:31 info: 🚀 App listening on the port 5000
+2021-10-10 18:21:31 info: =================================
+2021-10-10 18:22:15 info: [0mOPTIONS /contacts [32m204[0m 3.896 ms - 0[0m
+2021-10-10 18:22:15 error: [POST] /contacts >> StatusCode:: 400, Message:: property service should not exist
+2021-10-10 18:22:15 info: [0mPOST /contacts [33m400[0m 68.449 ms - 47[0m
+2021-10-10 18:23:48 info: =================================
+2021-10-10 18:23:48 info: ======= ENV: development =======
+2021-10-10 18:23:48 info: 🚀 App listening on the port 5000
+2021-10-10 18:23:48 info: =================================
+2021-10-10 18:23:48 info: [0mOPTIONS /contacts [32m204[0m 3.965 ms - 0[0m
+2021-10-10 18:23:49 info: [0mPOST /contacts [32m201[0m 635.311 ms - 215[0m
+2021-10-10 18:24:26 info: =================================
+2021-10-10 18:24:26 info: ======= ENV: development =======
+2021-10-10 18:24:26 info: 🚀 App listening on the port 5000
+2021-10-10 18:24:26 info: =================================
+2021-10-10 18:25:17 info: =================================
+2021-10-10 18:25:17 info: ======= ENV: development =======
+2021-10-10 18:25:17 info: 🚀 App listening on the port 5000
+2021-10-10 18:25:17 info: =================================
+2021-10-10 18:25:51 info: =================================
+2021-10-10 18:25:51 info: ======= ENV: development =======
+2021-10-10 18:25:51 info: 🚀 App listening on the port 5000
+2021-10-10 18:25:51 info: =================================
+2021-10-10 18:26:12 info: [0mGET /contacts [32m200[0m 24.140 ms - 194[0m
+2021-10-10 18:27:57 info: =================================
+2021-10-10 18:27:57 info: ======= ENV: development =======
+2021-10-10 18:27:57 info: 🚀 App listening on the port 5000
+2021-10-10 18:27:57 info: =================================
+2021-10-10 18:29:21 info: =================================
+2021-10-10 18:29:21 info: ======= ENV: development =======
+2021-10-10 18:29:21 info: 🚀 App listening on the port 5000
+2021-10-10 18:29:21 info: =================================
+2021-10-10 18:30:07 info: [0mOPTIONS /contacts [32m204[0m 4.205 ms - 0[0m
+2021-10-10 18:30:08 info: [0mPOST /contacts [32m201[0m 76.233 ms - 217[0m
+2021-10-10 18:31:17 info: [0mOPTIONS /contacts [32m204[0m 0.434 ms - 0[0m
+2021-10-10 18:31:17 info: [0mPOST /contacts [32m201[0m 11.090 ms - 217[0m
