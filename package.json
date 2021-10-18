@@ -1,18 +1,21 @@
 {
-  "name": "typescript-express-starter",
+  "name": "mediaplus-server",
   "version": "0.0.0",
   "description": "TypeScript + Mongoose + MongoDB + Express API Server",
   "author": "",
   "license": "ISC",
+  "engines": { "node": "v16.1.0" },
   "scripts": {
     "start": "npm run build && cross-env NODE_ENV=production node dist/server.js",
     "dev": "cross-env NODE_ENV=development nodemon",
     "build": "tsc && npx tsc-alias",
+    "postinstall": "tsc",
     "test": "jest --forceExit --detectOpenHandles",
     "lint": "eslint --ignore-path .gitignore --ext .ts src/",
     "lint:fix": "npm run lint -- --fix",
     "deploy:prod": "npm run build && pm2 start ecosystem.config.js --only prod",
-    "deploy:dev": "pm2 start ecosystem.config.js --only dev"
+    "deploy:dev": "pm2 start ecosystem.config.js --only dev",
+    "deploy": "git add . && git commit -m Heroku && git push heroku master"
   },
   "dependencies": {
     "bcrypt": "^5.0.1",
