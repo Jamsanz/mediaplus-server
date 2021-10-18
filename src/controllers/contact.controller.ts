@@ -43,8 +43,7 @@ class ContactsController {
       const ContactId: string = req.params.id;
       const ContactData: CreateContactDto = req.body;
       const updateContactData: Contact = await this.contactService.updateContact(ContactId, ContactData);
-
-      res.status(200).json({ data: updateContactData, message: 'updated' });
+      res.status(200).json({ data: updateContactData, message: 'Record updated successfully' });
     } catch (error) {
       next(error);
     }

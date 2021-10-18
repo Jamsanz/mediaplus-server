@@ -33,7 +33,7 @@ class UserService {
     if (isEmpty(contactData)) throw new HttpException(400, "Empty fields provided");
 
 
-    const updateContactById: Contact = await this.contacts.findByIdAndUpdate(contactId, { contactData });
+    const updateContactById: Contact = await this.contacts.findByIdAndUpdate(contactId, {$set:contactData});
     if (!updateContactById) throw new HttpException(409, "Invalid record selection");
 
     return updateContactById;

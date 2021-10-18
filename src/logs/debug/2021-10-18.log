@@ -1,0 +1,32 @@
+2021-10-18 00:05:55 info: [0mOPTIONS /contacts [32m204[0m 2.157 ms - 0[0m
+2021-10-18 00:05:58 info: [0mGET /contacts [36m304[0m 363.035 ms - -[0m
+2021-10-18 00:06:57 info: =================================
+2021-10-18 00:06:57 info: ======= ENV: development =======
+2021-10-18 00:06:57 info: 🚀 App listening on the port 5000
+2021-10-18 00:06:57 info: =================================
+2021-10-18 00:07:15 info: [0mOPTIONS /contacts [32m204[0m 3.553 ms - 0[0m
+2021-10-18 00:07:15 info: [0mGET /contacts [36m304[0m 31.212 ms - -[0m
+2021-10-18 01:09:31 info: [0mGET /signup [33m404[0m 408.419 ms - 145[0m
+2021-10-18 01:10:38 info: [0mPOST /signup [32m201[0m 954.743 ms - 170[0m
+2021-10-18 01:19:03 info: [0mOPTIONS /login [32m204[0m 47.539 ms - 0[0m
+2021-10-18 01:19:04 info: [0mPOST /login [32m200[0m 426.985 ms - 169[0m
+2021-10-18 01:19:21 info: [0mOPTIONS /contacts [32m204[0m 0.317 ms - 0[0m
+2021-10-18 01:19:21 info: [0mGET /contacts [36m304[0m 220.698 ms - -[0m
+2021-10-18 01:21:30 info: [0mOPTIONS /contacts [32m204[0m 0.270 ms - 0[0m
+2021-10-18 01:21:30 info: [0mGET /contacts [36m304[0m 5.417 ms - -[0m
+2021-10-18 01:23:25 info: [0mOPTIONS /contacts [32m204[0m 0.459 ms - 0[0m
+2021-10-18 01:23:25 info: [0mGET /contacts [36m304[0m 6.581 ms - -[0m
+2021-10-18 01:24:05 info: [0mOPTIONS /contacts [32m204[0m 0.421 ms - 0[0m
+2021-10-18 01:24:05 info: [0mGET /contacts [36m304[0m 5.903 ms - -[0m
+2021-10-18 01:25:49 info: [0mOPTIONS /contacts [32m204[0m 0.350 ms - 0[0m
+2021-10-18 01:25:49 info: [0mGET /contacts [36m304[0m 5.869 ms - -[0m
+2021-10-18 01:26:13 info: [0mOPTIONS /contacts [32m204[0m 0.445 ms - 0[0m
+2021-10-18 01:26:13 info: [0mGET /contacts [36m304[0m 31.619 ms - -[0m
+2021-10-18 01:26:36 info: [0mOPTIONS /contacts [32m204[0m 0.289 ms - 0[0m
+2021-10-18 01:26:36 info: [0mGET /contacts [36m304[0m 6.466 ms - -[0m
+2021-10-18 01:26:47 info: [0mOPTIONS /login [32m204[0m 0.329 ms - 0[0m
+2021-10-18 01:26:47 info: [0mPOST /login [32m200[0m 183.709 ms - 169[0m
+2021-10-18 01:26:47 info: [0mOPTIONS /contacts [32m204[0m 0.353 ms - 0[0m
+2021-10-18 01:26:47 info: [0mGET /contacts [36m304[0m 17.486 ms - -[0m
+2021-10-18 01:27:11 info: [0mOPTIONS /contacts/616c9f88b66e32061c908fcf [32m204[0m 0.362 ms - 0[0m
+2021-10-18 01:27:12 info: [0mPUT /contacts/616c9f88b66e32061c908fcf [32m200[0m 313.927 ms - 236[0m
