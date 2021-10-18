@@ -1,0 +1,4 @@
+(node:21824) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:6280) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
