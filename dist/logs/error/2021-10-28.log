@@ -1,0 +1,56 @@
+2021-10-28 22:17:05 error: uncaughtException: Cannot find module 'config'
+Require stack:
+- C:\Users\imadu\Desktop\Tools\mediaplus\server\dist\services\auth.service.js
+- C:\Users\imadu\Desktop\Tools\mediaplus\server\dist\controllers\auth.controller.js
+- C:\Users\imadu\Desktop\Tools\mediaplus\server\dist\routes\auth.route.js
+- C:\Users\imadu\Desktop\Tools\mediaplus\server\dist\server.js
+Error: Cannot find module 'config'
+Require stack:
+- C:\Users\imadu\Desktop\Tools\mediaplus\server\dist\services\auth.service.js
+- C:\Users\imadu\Desktop\Tools\mediaplus\server\dist\controllers\auth.controller.js
+- C:\Users\imadu\Desktop\Tools\mediaplus\server\dist\routes\auth.route.js
+- C:\Users\imadu\Desktop\Tools\mediaplus\server\dist\server.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:941:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:774:27)
+    at Module.require (node:internal/modules/cjs/loader:1013:19)
+    at require (node:internal/modules/cjs/helpers:93:18)
+    at Object.<anonymous> (C:\Users\imadu\Desktop\Tools\mediaplus\server\dist\services\auth.service.js:5:47)
+    at Module._compile (node:internal/modules/cjs/loader:1109:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1138:10)
+    at Module.load (node:internal/modules/cjs/loader:989:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:829:14)
+    at Module.require (node:internal/modules/cjs/loader:1013:19)
+    at require (node:internal/modules/cjs/helpers:93:18)
+    at Object.<anonymous> (C:\Users\imadu\Desktop\Tools\mediaplus\server\dist\controllers\auth.controller.js:4:53)
+    at Module._compile (node:internal/modules/cjs/loader:1109:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1138:10)
+    at Module.load (node:internal/modules/cjs/loader:989:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:829:14)
+2021-10-28 22:17:38 error: uncaughtException: Cannot find module 'config'
+Require stack:
+- C:\Users\imadu\Desktop\Tools\mediaplus\server\dist\services\auth.service.js
+- C:\Users\imadu\Desktop\Tools\mediaplus\server\dist\controllers\auth.controller.js
+- C:\Users\imadu\Desktop\Tools\mediaplus\server\dist\routes\auth.route.js
+- C:\Users\imadu\Desktop\Tools\mediaplus\server\dist\server.js
+Error: Cannot find module 'config'
+Require stack:
+- C:\Users\imadu\Desktop\Tools\mediaplus\server\dist\services\auth.service.js
+- C:\Users\imadu\Desktop\Tools\mediaplus\server\dist\controllers\auth.controller.js
+- C:\Users\imadu\Desktop\Tools\mediaplus\server\dist\routes\auth.route.js
+- C:\Users\imadu\Desktop\Tools\mediaplus\server\dist\server.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:941:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:774:27)
+    at Module.require (node:internal/modules/cjs/loader:1013:19)
+    at require (node:internal/modules/cjs/helpers:93:18)
+    at Object.<anonymous> (C:\Users\imadu\Desktop\Tools\mediaplus\server\dist\services\auth.service.js:5:47)
+    at Module._compile (node:internal/modules/cjs/loader:1109:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1138:10)
+    at Module.load (node:internal/modules/cjs/loader:989:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:829:14)
+    at Module.require (node:internal/modules/cjs/loader:1013:19)
+    at require (node:internal/modules/cjs/helpers:93:18)
+    at Object.<anonymous> (C:\Users\imadu\Desktop\Tools\mediaplus\server\dist\controllers\auth.controller.js:4:53)
+    at Module._compile (node:internal/modules/cjs/loader:1109:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1138:10)
+    at Module.load (node:internal/modules/cjs/loader:989:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:829:14)

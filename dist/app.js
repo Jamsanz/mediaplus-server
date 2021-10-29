@@ -7,7 +7,6 @@ const cookie_parser_1 = (0, tslib_1.__importDefault)(require("cookie-parser"));
 const cors_1 = (0, tslib_1.__importDefault)(require("cors"));
 const config_1 = (0, tslib_1.__importDefault)(require("config"));
 const express_1 = (0, tslib_1.__importDefault)(require("express"));
-const helmet_1 = (0, tslib_1.__importDefault)(require("helmet"));
 const hpp_1 = (0, tslib_1.__importDefault)(require("hpp"));
 const morgan_1 = (0, tslib_1.__importDefault)(require("morgan"));
 const mongoose_1 = require("mongoose");
@@ -20,7 +19,7 @@ class App {
     constructor(routes) {
         this.app = (0, express_1.default)();
         this.port = process.env.PORT || 5000;
-        this.env = process.env.NODE_ENV || 'development';
+        this.env = process.env.NODE_ENV;
         this.connectToDatabase();
         this.initializeMiddlewares();
         this.initializeRoutes(routes);
@@ -48,7 +47,6 @@ class App {
         this.app.use((0, morgan_1.default)(config_1.default.get('log.format'), { stream: logger_1.stream }));
         this.app.use((0, cors_1.default)({ origin: config_1.default.get('cors.origin'), credentials: config_1.default.get('cors.credentials') }));
         this.app.use((0, hpp_1.default)());
-        this.app.use((0, helmet_1.default)());
         this.app.use((0, compression_1.default)());
         this.app.use(express_1.default.json());
         this.app.use(express_1.default.urlencoded({ extended: true }));

@@ -4,7 +4,9 @@
  *  production mode :: pm2 start ecosystem.config.js --only prod
  *  development mode :: pm2 start ecosystem.config.js --only dev
  */
- module.exports = {
+require('dotenv').config();
+
+module.exports = {
   apps: [
     {
       name: 'prod', // pm2 start App name
@@ -20,7 +22,7 @@
       output: './logs/access.log', // pm2 log file
       error: './logs/error.log', // pm2 error log file
       env: { // environment variable
-        PORT: 3000,
+        PORT: process.env.PORT || 5000,
         NODE_ENV: 'production',
       },
     },
@@ -39,7 +41,7 @@
       output: './logs/access.log', // pm2 log file
       error: './logs/error.log', // pm2 error log file
       env: { // environment variable
-        PORT: 3000,
+        PORT: 5000,
         NODE_ENV: 'development',
       },
     },
