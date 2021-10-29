@@ -14,6 +14,7 @@ import { dbConnection } from '@databases';
 import { Routes } from '@interfaces/routes.interface';
 import errorMiddleware from '@middlewares/error.middleware';
 import { logger, stream } from '@utils/logger';
+import helmet from 'helmet';
 
 class App {
   public app: express.Application;
@@ -56,6 +57,7 @@ class App {
   private initializeMiddlewares() {
     this.app.use(morgan(config.get('log.format'), { stream }));
     this.app.use(cors({ origin: config.get('cors.origin'), credentials: config.get('cors.credentials') }));
+    this.app.use(helmet());
     this.app.use(hpp());
     this.app.use(compression());
     this.app.use(express.json());
