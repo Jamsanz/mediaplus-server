@@ -40,3 +40,26 @@
 2021-10-30 13:48:52 info: ======= ENV: development =======
 2021-10-30 13:48:52 info: 🚀 App listening on the port 5000
 2021-10-30 13:48:52 info: =================================
+2021-10-30 13:52:21 info: =================================
+2021-10-30 13:52:21 info: ======= ENV: development =======
+2021-10-30 13:52:21 info: 🚀 App listening on the port 5000
+2021-10-30 13:52:21 info: =================================
+2021-10-30 13:52:29 info: [0mOPTIONS /login [32m204[0m 3.783 ms - 0[0m
+2021-10-30 13:52:29 error: [POST] /login >> StatusCode:: 409, Message:: Your email JohnDoe@gmail.com is not found
+2021-10-30 13:52:29 info: [0mPOST /login [33m409[0m 503.190 ms - 55[0m
+2021-10-30 13:53:27 info: [0mOPTIONS /login [32m204[0m 0.465 ms - 0[0m
+2021-10-30 13:53:27 error: [POST] /login >> StatusCode:: 409, Message:: Your email dev@gmail.com is not found
+2021-10-30 13:53:27 info: [0mPOST /login [33m409[0m 335.542 ms - 51[0m
+2021-10-30 13:53:39 info: [0mOPTIONS /login [32m204[0m 0.331 ms - 0[0m
+2021-10-30 13:53:40 error: [POST] /login >> StatusCode:: 409, Message:: Your email dev@gmail.com is not found
+2021-10-30 13:53:40 info: [0mPOST /login [33m409[0m 463.777 ms - 51[0m
+2021-10-30 13:54:02 info: [0mOPTIONS /login [32m204[0m 0.364 ms - 0[0m
+2021-10-30 13:54:02 error: [POST] /login >> StatusCode:: 409, Message:: Your email dev@gmail.com is not found
+2021-10-30 13:54:02 info: [0mPOST /login [33m409[0m 497.456 ms - 51[0m
+2021-10-30 13:56:03 info: [0mOPTIONS /login [32m204[0m 0.422 ms - 0[0m
+2021-10-30 13:56:04 error: [POST] /login >> StatusCode:: 409, Message:: Your email dev@gmail.com is not found
+2021-10-30 13:56:04 info: [0mPOST /login [33m409[0m 1751.989 ms - 51[0m
+2021-10-30 13:56:15 info: [0mOPTIONS /login [32m204[0m 0.384 ms - 0[0m
+2021-10-30 13:56:16 info: [0mPOST /login [32m200[0m 660.600 ms - 169[0m
+2021-10-30 13:56:17 info: [0mOPTIONS /contacts [32m204[0m 0.332 ms - 0[0m
+2021-10-30 13:56:18 info: [0mGET /contacts [36m304[0m 479.509 ms - -[0m
