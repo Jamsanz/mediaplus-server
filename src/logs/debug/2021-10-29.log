@@ -10,3 +10,38 @@
 2021-10-29 08:42:21 info: ======= ENV: development =======
 2021-10-29 08:42:21 info: 🚀 App listening on the port 5000
 2021-10-29 08:42:21 info: =================================
+2021-10-29 12:28:37 info: =================================
+2021-10-29 12:28:37 info: ======= ENV: development =======
+2021-10-29 12:28:37 info: 🚀 App listening on the port 5000
+2021-10-29 12:28:37 info: =================================
+2021-10-29 12:29:01 info: [0mGET /api-docs [36m301[0m 19.135 ms - 183[0m
+2021-10-29 12:29:01 info: [0mGET /api-docs/ [32m200[0m 38.994 ms - -[0m
+2021-10-29 12:29:02 info: [0mGET /api-docs/swagger-ui-standalone-preset.js [32m200[0m 6.863 ms - -[0m
+2021-10-29 12:29:02 info: [0mGET /api-docs/swagger-ui.css [32m200[0m 78.951 ms - -[0m
+2021-10-29 12:29:02 info: [0mGET /api-docs/swagger-ui-bundle.js [32m200[0m 6.886 ms - -[0m
+2021-10-29 12:29:02 info: [0mGET /api-docs/swagger-ui-init.js [32m200[0m 1.625 ms - -[0m
+2021-10-29 12:29:04 info: [0mGET /api-docs/favicon-32x32.png [32m200[0m 24.631 ms - 628[0m
+2021-10-29 12:29:12 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 2.531 ms - -[0m
+2021-10-29 12:29:16 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 1.371 ms - -[0m
+2021-10-29 12:29:18 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 3.882 ms - -[0m
+2021-10-29 12:29:26 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 1.775 ms - -[0m
+2021-10-29 12:29:28 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 1.501 ms - -[0m
+2021-10-29 12:29:41 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 0.927 ms - -[0m
+2021-10-29 12:29:44 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 2.696 ms - -[0m
+2021-10-29 12:29:52 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 1.112 ms - -[0m
+2021-10-29 12:29:56 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 1.724 ms - -[0m
+2021-10-29 12:30:04 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 1.583 ms - -[0m
+2021-10-29 12:30:05 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 1.694 ms - -[0m
+2021-10-29 12:30:10 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 2.095 ms - -[0m
+2021-10-29 12:38:44 info: [0mGET /api-docs/ [36m304[0m 2.210 ms - -[0m
+2021-10-29 12:38:44 info: [0mGET /api-docs/swagger-ui.css [36m304[0m 1.406 ms - -[0m
+2021-10-29 12:38:44 info: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 5.766 ms - -[0m
+2021-10-29 12:38:44 info: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 7.871 ms - -[0m
+2021-10-29 12:38:44 info: [0mGET /api-docs/swagger-ui-init.js [36m304[0m 1.120 ms - -[0m
+2021-10-29 12:38:45 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 1.447 ms - -[0m
+2021-10-29 12:40:04 info: [0mGET /api-docs/ [36m304[0m 4.714 ms - -[0m
+2021-10-29 12:40:04 info: [0mGET /api-docs/swagger-ui.css [36m304[0m 7.185 ms - -[0m
+2021-10-29 12:40:04 info: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 4.047 ms - -[0m
+2021-10-29 12:40:04 info: [0mGET /api-docs/swagger-ui-init.js [36m304[0m 1.002 ms - -[0m
+2021-10-29 12:40:04 info: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 6.278 ms - -[0m
+2021-10-29 12:40:05 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 1.485 ms - -[0m

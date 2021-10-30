@@ -24,13 +24,13 @@ class AuthService {
   }
 
   public async login(userData: CreateUserDto): Promise<{ cookie: string; findUser: User }> {
-    if (isEmpty(userData)) throw new HttpException(400, "You're not userData");
+    if (isEmpty(userData)) new HttpException(400, "You're not userData");
 
     const findUser: User = await this.users.findOne({ email: userData.email });
     if (!findUser) throw new HttpException(409, `Your email ${userData.email} is not found`);
 
     const isPasswordMatching: boolean = await bcrypt.compare(userData.password, findUser.password);
-    if (!isPasswordMatching) throw new HttpException(409, "Your password does not matching");
+    if (!isPasswordMatching) new HttpException(409, "Incorrect password");
 
     const tokenData = this.createToken(findUser);
     const cookie = this.createCookie(tokenData);
