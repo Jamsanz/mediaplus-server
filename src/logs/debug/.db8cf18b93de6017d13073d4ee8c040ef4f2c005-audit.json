@@ -3,36 +3,36 @@
         "days": false,
         "amount": 30
     },
-    "auditLog": "C:\\Users\\imadu\\Desktop\\Tools\\mediaplus\\server\\src\\logs\\debug\\.db8cf18b93de6017d13073d4ee8c040ef4f2c005-audit.json",
+    "auditLog": "C:\\Users\\USER\\Desktop\\Tools\\mediaplus\\server\\src\\logs\\debug\\.db8cf18b93de6017d13073d4ee8c040ef4f2c005-audit.json",
     "files": [
         {
             "date": 1633884266772,
-            "name": "C:\\Users\\imadu\\Desktop\\Tools\\mediaplus\\server\\src\\logs\\debug\\2021-10-10.log",
+            "name": "C:\\Users\\USER\\Desktop\\Tools\\mediaplus\\server\\src\\logs\\debug\\2021-10-10.log",
             "hash": "47eb6b2c0eb8da6d6207e97d79532aee"
         },
         {
             "date": 1634501328305,
-            "name": "C:\\Users\\imadu\\Desktop\\Tools\\mediaplus\\server\\src\\logs\\debug\\2021-10-17.log",
+            "name": "C:\\Users\\USER\\Desktop\\Tools\\mediaplus\\server\\src\\logs\\debug\\2021-10-17.log",
             "hash": "a5baad0de2731d298772f27e9f974d7c"
         },
         {
             "date": 1634511955839,
-            "name": "C:\\Users\\imadu\\Desktop\\Tools\\mediaplus\\server\\src\\logs\\debug\\2021-10-18.log",
+            "name": "C:\\Users\\USER\\Desktop\\Tools\\mediaplus\\server\\src\\logs\\debug\\2021-10-18.log",
             "hash": "70e545c9baa8b383797fb319a09c0795"
         },
         {
             "date": 1634740914529,
-            "name": "C:\\Users\\imadu\\Desktop\\Tools\\mediaplus\\server\\src\\logs\\debug\\2021-10-20.log",
+            "name": "C:\\Users\\USER\\Desktop\\Tools\\mediaplus\\server\\src\\logs\\debug\\2021-10-20.log",
             "hash": "8989d03a82420e743b1884b4dbd546bc"
         },
         {
             "date": 1635491725595,
-            "name": "C:\\Users\\imadu\\Desktop\\Tools\\mediaplus\\server\\src\\logs\\debug\\2021-10-29.log",
+            "name": "C:\\Users\\USER\\Desktop\\Tools\\mediaplus\\server\\src\\logs\\debug\\2021-10-29.log",
             "hash": "f3358ce4344aa6396ea29a1a78c1cbf2"
         },
         {
             "date": 1635593291838,
-            "name": "C:\\Users\\imadu\\Desktop\\Tools\\mediaplus\\server\\src\\logs\\debug\\2021-10-30.log",
+            "name": "C:\\Users\\USER\\Desktop\\Tools\\mediaplus\\server\\src\\logs\\debug\\2021-10-30.log",
             "hash": "8543f4a2ed713cccd05dc3ae09511765"
         }
     ]

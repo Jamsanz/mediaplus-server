@@ -29,7 +29,7 @@ class AuthService {
             throw new HttpException_1.HttpException(409, `Your email ${userData.email} is not found`);
         const isPasswordMatching = await bcrypt_1.default.compare(userData.password, findUser.password);
         if (!isPasswordMatching)
-            throw new HttpException_1.HttpException(409, "Your password does not matching");
+            throw new HttpException_1.HttpException(409, "Incorrect password");
         const tokenData = this.createToken(findUser);
         const cookie = this.createCookie(tokenData);
         return { cookie, findUser };

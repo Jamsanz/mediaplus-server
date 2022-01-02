@@ -15,6 +15,7 @@ import { Routes } from '@interfaces/routes.interface';
 import errorMiddleware from '@middlewares/error.middleware';
 import { logger, stream } from '@utils/logger';
 import helmet from 'helmet';
+import PostsRoute from './routes/posts.route';
 
 class App {
   public app: express.Application;
@@ -60,10 +61,12 @@ class App {
     this.app.use(helmet());
     this.app.use(hpp());
     this.app.use(compression());
-    this.app.use(express.json());
+    // this.app.use(express.bodyParser())
+    this.app.use(express.json({ limit: '500mb' }));
     this.app.use(express.urlencoded({ extended: true }));
     this.app.use(cookieParser());
   }
+
 
   private initializeRoutes(routes: Routes[]) {
     routes.forEach(route => {

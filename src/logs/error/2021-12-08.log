@@ -1,0 +1,2 @@
+2021-12-08 14:11:45 error: [POST] /login >> StatusCode:: 409, Message:: Your email superadmin@email.com is not found
+2021-12-08 14:29:31 error: [DELETE] /users/61b0ad0daea48e15bccdb1ab >> StatusCode:: 409, Message:: You're not user

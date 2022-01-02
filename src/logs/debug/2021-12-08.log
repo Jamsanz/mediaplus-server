@@ -1,0 +1,61 @@
+2021-12-08 13:53:36 info: =================================
+2021-12-08 13:53:36 info: ======= ENV: development =======
+2021-12-08 13:53:36 info: 🚀 App listening on the port 5000
+2021-12-08 13:53:36 info: =================================
+2021-12-08 13:54:43 info: [0mPOST /signup [32m201[0m 781.798 ms - 175[0m
+2021-12-08 13:56:09 info: [0mDELETE /users/61b0ab13aea48e15bccdb1a3 [32m200[0m 192.601 ms - 176[0m
+2021-12-08 14:01:22 info: [0mOPTIONS /signup [32m204[0m 1.629 ms - 0[0m
+2021-12-08 14:01:22 info: [0mPOST /signup [32m201[0m 627.258 ms - 175[0m
+2021-12-08 14:03:02 info: [0mDELETE /users/61b0aca2aea48e15bccdb1a7 [32m200[0m 194.960 ms - 176[0m
+2021-12-08 14:03:09 info: [0mOPTIONS /signup [32m204[0m 1.023 ms - 0[0m
+2021-12-08 14:03:09 info: [0mPOST /signup [32m201[0m 591.538 ms - 175[0m
+2021-12-08 14:03:28 info: [0mOPTIONS /login [32m204[0m 0.481 ms - 0[0m
+2021-12-08 14:03:29 info: [0mPOST /login [32m200[0m 445.183 ms - 174[0m
+2021-12-08 14:03:29 info: [0mOPTIONS /contacts [32m204[0m 0.154 ms - 0[0m
+2021-12-08 14:03:29 info: [0mGET /contacts [32m200[0m 223.004 ms - 622[0m
+2021-12-08 14:05:57 info: [0mOPTIONS /login [32m204[0m 1.339 ms - 0[0m
+2021-12-08 14:05:58 info: [0mPOST /login [32m200[0m 1359.841 ms - 174[0m
+2021-12-08 14:05:58 info: [0mOPTIONS /contacts [32m204[0m 0.190 ms - 0[0m
+2021-12-08 14:05:58 info: [0mGET /contacts [36m304[0m 191.268 ms - -[0m
+2021-12-08 14:07:14 info: [0mDELETE /login [33m404[0m 2.554 ms - 147[0m
+2021-12-08 14:07:25 info: [0mPOST /login [32m200[0m 331.579 ms - 174[0m
+2021-12-08 14:10:38 info: [0mOPTIONS /login [32m204[0m 0.585 ms - 0[0m
+2021-12-08 14:10:38 info: [0mPOST /login [32m200[0m 481.789 ms - 174[0m
+2021-12-08 14:10:38 info: [0mOPTIONS /contacts [32m204[0m 0.312 ms - 0[0m
+2021-12-08 14:10:39 info: [0mGET /contacts [36m304[0m 213.094 ms - -[0m
+2021-12-08 14:11:03 info: [0mOPTIONS /contacts [32m204[0m 0.213 ms - 0[0m
+2021-12-08 14:11:03 info: [0mGET /contacts [36m304[0m 199.503 ms - -[0m
+2021-12-08 14:11:09 info: [0mOPTIONS /contacts [32m204[0m 0.183 ms - 0[0m
+2021-12-08 14:11:09 info: [0mGET /contacts [36m304[0m 192.697 ms - -[0m
+2021-12-08 14:11:45 info: [0mOPTIONS /login [32m204[0m 0.200 ms - 0[0m
+2021-12-08 14:11:45 error: [POST] /login >> StatusCode:: 409, Message:: Your email superadmin@email.com is not found
+2021-12-08 14:11:45 info: [0mPOST /login [33m409[0m 199.869 ms - 58[0m
+2021-12-08 14:11:49 info: [0mPOST /login [32m200[0m 476.856 ms - 174[0m
+2021-12-08 14:11:51 info: [0mOPTIONS /contacts [32m204[0m 0.190 ms - 0[0m
+2021-12-08 14:11:51 info: [0mGET /contacts [36m304[0m 193.876 ms - -[0m
+2021-12-08 14:12:22 info: [0mOPTIONS /login [32m204[0m 0.346 ms - 0[0m
+2021-12-08 14:12:23 info: [0mPOST /login [32m200[0m 417.772 ms - 174[0m
+2021-12-08 14:12:24 info: [0mOPTIONS /contacts [32m204[0m 0.133 ms - 0[0m
+2021-12-08 14:12:24 info: [0mGET /contacts [36m304[0m 191.389 ms - -[0m
+2021-12-08 14:13:35 info: [0mOPTIONS /contacts [32m204[0m 0.215 ms - 0[0m
+2021-12-08 14:13:35 info: [0mGET /contacts [36m304[0m 207.343 ms - -[0m
+2021-12-08 14:13:44 info: [0mOPTIONS /login [32m204[0m 0.294 ms - 0[0m
+2021-12-08 14:13:44 info: [0mPOST /login [32m200[0m 405.036 ms - 174[0m
+2021-12-08 14:13:46 info: [0mOPTIONS /contacts [32m204[0m 0.162 ms - 0[0m
+2021-12-08 14:13:46 info: [0mGET /contacts [36m304[0m 211.822 ms - -[0m
+2021-12-08 14:14:41 info: [0mOPTIONS /login [32m204[0m 0.503 ms - 0[0m
+2021-12-08 14:14:41 info: [0mPOST /login [32m200[0m 380.080 ms - 174[0m
+2021-12-08 14:14:41 info: [0mOPTIONS /contacts [32m204[0m 0.124 ms - 0[0m
+2021-12-08 14:14:41 info: [0mGET /contacts [36m304[0m 191.914 ms - -[0m
+2021-12-08 14:16:45 info: [0mPOST /login [32m200[0m 326.565 ms - 174[0m
+2021-12-08 14:17:58 info: [0mOPTIONS /login [32m204[0m 0.881 ms - 0[0m
+2021-12-08 14:17:58 info: [0mPOST /login [32m200[0m 483.551 ms - 174[0m
+2021-12-08 14:17:58 info: [0mOPTIONS /contacts [32m204[0m 0.116 ms - 0[0m
+2021-12-08 14:17:59 info: [0mGET /contacts [36m304[0m 189.059 ms - -[0m
+2021-12-08 14:29:07 info: =================================
+2021-12-08 14:29:07 info: ======= ENV: development =======
+2021-12-08 14:29:07 info: 🚀 App listening on the port 5000
+2021-12-08 14:29:07 info: =================================
+2021-12-08 14:29:22 info: [0mDELETE /users/61b0ad0daea48e15bccdb1ab [32m200[0m 227.582 ms - 176[0m
+2021-12-08 14:29:31 error: [DELETE] /users/61b0ad0daea48e15bccdb1ab >> StatusCode:: 409, Message:: You're not user
+2021-12-08 14:29:31 info: [0mDELETE /users/61b0ad0daea48e15bccdb1ab [33m409[0m 200.907 ms - 29[0m

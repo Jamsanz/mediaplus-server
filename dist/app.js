@@ -15,6 +15,7 @@ const swagger_ui_express_1 = (0, tslib_1.__importDefault)(require("swagger-ui-ex
 const _databases_1 = require("./databases");
 const error_middleware_1 = (0, tslib_1.__importDefault)(require("./middlewares/error.middleware"));
 const logger_1 = require("./utils/logger");
+const helmet_1 = (0, tslib_1.__importDefault)(require("helmet"));
 class App {
     constructor(routes) {
         this.app = (0, express_1.default)();
@@ -46,6 +47,7 @@ class App {
     initializeMiddlewares() {
         this.app.use((0, morgan_1.default)(config_1.default.get('log.format'), { stream: logger_1.stream }));
         this.app.use((0, cors_1.default)({ origin: config_1.default.get('cors.origin'), credentials: config_1.default.get('cors.credentials') }));
+        this.app.use((0, helmet_1.default)());
         this.app.use((0, hpp_1.default)());
         this.app.use((0, compression_1.default)());
         this.app.use(express_1.default.json());

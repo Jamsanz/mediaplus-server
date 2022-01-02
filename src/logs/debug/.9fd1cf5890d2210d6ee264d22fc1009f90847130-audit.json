@@ -1,0 +1,69 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "C:\\Users\\USER\\Desktop\\Tools\\mediaplus\\server\\src\\logs\\debug\\.9fd1cf5890d2210d6ee264d22fc1009f90847130-audit.json",
+    "files": [
+        {
+            "date": 1637078908501,
+            "name": "C:\\Users\\USER\\Desktop\\Tools\\mediaplus\\server\\src\\logs\\debug\\2021-11-16.log",
+            "hash": "c2dbb760f61d529772e7b58df25f9581"
+        },
+        {
+            "date": 1637435666544,
+            "name": "C:\\Users\\USER\\Desktop\\Tools\\mediaplus\\server\\src\\logs\\debug\\2021-11-20.log",
+            "hash": "996e58c37a0910d719835b0a76e4a7c5"
+        },
+        {
+            "date": 1638968011911,
+            "name": "C:\\Users\\USER\\Desktop\\Tools\\mediaplus\\server\\src\\logs\\debug\\2021-12-08.log",
+            "hash": "0009d58c33ad20101cdbcabb9c086d08"
+        },
+        {
+            "date": 1639142026645,
+            "name": "C:\\Users\\USER\\Desktop\\Tools\\mediaplus\\server\\src\\logs\\debug\\2021-12-10.log",
+            "hash": "ca56f2da42047d6fc37fb97d9b9c591a"
+        },
+        {
+            "date": 1639228485593,
+            "name": "C:\\Users\\USER\\Desktop\\Tools\\mediaplus\\server\\src\\logs\\debug\\2021-12-11.log",
+            "hash": "4956188661d7bc7d79f77f7e335f4238"
+        },
+        {
+            "date": 1640256512728,
+            "name": "C:\\Users\\USER\\Desktop\\Tools\\mediaplus\\server\\src\\logs\\debug\\2021-12-23.log",
+            "hash": "6f6b113b2b9864528f4ef548dacdf7e0"
+        },
+        {
+            "date": 1640517092215,
+            "name": "C:\\Users\\USER\\Desktop\\Tools\\mediaplus\\server\\src\\logs\\debug\\2021-12-26.log",
+            "hash": "58708f7be76c6dfefbe0ebb8653b098b"
+        },
+        {
+            "date": 1640618586297,
+            "name": "C:\\Users\\USER\\Desktop\\Tools\\mediaplus\\server\\src\\logs\\debug\\2021-12-27.log",
+            "hash": "45babad59ff216593d01dd610467365d"
+        },
+        {
+            "date": 1640689019690,
+            "name": "C:\\Users\\USER\\Desktop\\Tools\\mediaplus\\server\\src\\logs\\debug\\2021-12-28.log",
+            "hash": "44983a40e2267b04eaae19f646cc5ec1"
+        },
+        {
+            "date": 1640870180164,
+            "name": "C:\\Users\\USER\\Desktop\\Tools\\mediaplus\\server\\src\\logs\\debug\\2021-12-30.log",
+            "hash": "73aaeb33e49523020d43410d454dc1c6"
+        },
+        {
+            "date": 1640966590390,
+            "name": "C:\\Users\\USER\\Desktop\\Tools\\mediaplus\\server\\src\\logs\\debug\\2021-12-31.log",
+            "hash": "9b5d407be52094e4e98962c4c54b5bb1"
+        },
+        {
+            "date": 1641118306383,
+            "name": "C:\\Users\\USER\\Desktop\\Tools\\mediaplus\\server\\src\\logs\\debug\\2022-01-02.log",
+            "hash": "533fcaa30e121784fc82bfb9cb697df1"
+        }
+    ]
+}
