@@ -50,7 +50,8 @@ class App {
         this.app.use((0, helmet_1.default)());
         this.app.use((0, hpp_1.default)());
         this.app.use((0, compression_1.default)());
-        this.app.use(express_1.default.json());
+        // this.app.use(express.bodyParser())
+        this.app.use(express_1.default.json({ limit: '500mb' }));
         this.app.use(express_1.default.urlencoded({ extended: true }));
         this.app.use((0, cookie_parser_1.default)());
     }

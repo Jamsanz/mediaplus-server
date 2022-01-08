@@ -1,0 +1,36 @@
+2022-01-08 21:55:10 error: uncaughtException: Invalid connection string
+MongoParseError: Invalid connection string
+    at parseConnectionString (C:\Users\USER\Desktop\Tools\mediaplus\server\node_modules\mongodb\lib\core\uri_parser.js:575:21)
+    at connect (C:\Users\USER\Desktop\Tools\mediaplus\server\node_modules\mongodb\lib\operations\connect.js:282:3)
+    at C:\Users\USER\Desktop\Tools\mediaplus\server\node_modules\mongodb\lib\mongo_client.js:260:5
+    at maybePromise (C:\Users\USER\Desktop\Tools\mediaplus\server\node_modules\mongodb\lib\utils.js:692:3)
+    at MongoClient.connect (C:\Users\USER\Desktop\Tools\mediaplus\server\node_modules\mongodb\lib\mongo_client.js:256:10)
+    at C:\Users\USER\Desktop\Tools\mediaplus\server\node_modules\mongoose\lib\connection.js:835:12
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (C:\Users\USER\Desktop\Tools\mediaplus\server\node_modules\mongoose\lib\connection.js:832:19)
+    at C:\Users\USER\Desktop\Tools\mediaplus\server\node_modules\mongoose\lib\index.js:351:10
+    at C:\Users\USER\Desktop\Tools\mediaplus\server\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\USER\Desktop\Tools\mediaplus\server\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\Users\USER\Desktop\Tools\mediaplus\server\node_modules\mongoose\lib\index.js:1149:10)
+    at Mongoose.connect (C:\Users\USER\Desktop\Tools\mediaplus\server\node_modules\mongoose\lib\index.js:350:20)
+    at App.connectToDatabase (C:\Users\USER\Desktop\Tools\mediaplus\server\dist\app.js:45:32)
+    at new App (C:\Users\USER\Desktop\Tools\mediaplus\server\dist\app.js:24:14)
+2022-01-08 21:55:35 error: uncaughtException: Invalid connection string
+MongoParseError: Invalid connection string
+    at parseConnectionString (C:\Users\USER\Desktop\Tools\mediaplus\server\node_modules\mongodb\lib\core\uri_parser.js:575:21)
+    at connect (C:\Users\USER\Desktop\Tools\mediaplus\server\node_modules\mongodb\lib\operations\connect.js:282:3)
+    at C:\Users\USER\Desktop\Tools\mediaplus\server\node_modules\mongodb\lib\mongo_client.js:260:5
+    at maybePromise (C:\Users\USER\Desktop\Tools\mediaplus\server\node_modules\mongodb\lib\utils.js:692:3)
+    at MongoClient.connect (C:\Users\USER\Desktop\Tools\mediaplus\server\node_modules\mongodb\lib\mongo_client.js:256:10)
+    at C:\Users\USER\Desktop\Tools\mediaplus\server\node_modules\mongoose\lib\connection.js:835:12
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (C:\Users\USER\Desktop\Tools\mediaplus\server\node_modules\mongoose\lib\connection.js:832:19)
+    at C:\Users\USER\Desktop\Tools\mediaplus\server\node_modules\mongoose\lib\index.js:351:10
+    at C:\Users\USER\Desktop\Tools\mediaplus\server\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\USER\Desktop\Tools\mediaplus\server\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\Users\USER\Desktop\Tools\mediaplus\server\node_modules\mongoose\lib\index.js:1149:10)
+    at Mongoose.connect (C:\Users\USER\Desktop\Tools\mediaplus\server\node_modules\mongoose\lib\index.js:350:20)
+    at App.connectToDatabase (C:\Users\USER\Desktop\Tools\mediaplus\server\dist\app.js:45:32)
+    at new App (C:\Users\USER\Desktop\Tools\mediaplus\server\dist\app.js:24:14)
