@@ -5,6 +5,7 @@ export interface IPost {
     title?: string;
     body?: string;
     image?: img | null;
+    resource?: string;
     authorName?: string;
     authorImage?: string;
 }

@@ -1,4 +1,6 @@
+import { author } from '@/interfaces/author.interface';
 import { Iimg } from '@/interfaces/image.interface';
+import { resource } from '@/interfaces/resource.interface';
 import { IsEmail, IsString, IsObject } from 'class-validator';
 
 export class PostsDto {
@@ -12,8 +14,8 @@ export class PostsDto {
     public image: Iimg
 
     @IsString()
-    public authorName: string;
+    public author: author;
 
     @IsString()
-    public authorImage: string;
+    public resource: resource;
 }

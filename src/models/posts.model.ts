@@ -14,12 +14,12 @@ const postSchema: Schema = new Schema({
         type: Object,
         required: false
     },
-    authorName: {
-        type: String,
+    author: {
+        type: Object,
         required: true
     },
-    authorImage: {
-        type: String,
+    resource: {
+        type: Object,
         required: false
     }
 }, { timestamps: true });
