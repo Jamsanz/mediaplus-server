@@ -1,0 +1,4 @@
+2022-01-09 13:17:24 error: [GET] /post >> StatusCode:: 500, Message:: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+2022-01-09 13:26:12 error: [GET] /post >> StatusCode:: 500, Message:: connection timed out
+2022-01-09 13:27:21 error: [GET] /post >> StatusCode:: 500, Message:: getaddrinfo ENOTFOUND cluster0-shard-00-01.n2lhm.mongodb.net
+2022-01-09 13:30:27 error: [GET] /post >> StatusCode:: 500, Message:: connection 6 to 54.164.245.64:27017 closed
