@@ -1,0 +1,42 @@
+2022-01-09 12:27:36 info: [0mGET /posts [33m404[0m 3.022 ms - 144[0m
+2022-01-09 12:27:44 info: [0mGET /post [32m200[0m 3888.937 ms - -[0m
+2022-01-09 12:45:24 info: [0mOPTIONS /contacts [32m204[0m 0.362 ms - 0[0m
+2022-01-09 12:45:24 info: [0mGET /contacts [32m200[0m 381.006 ms - 622[0m
+2022-01-09 12:45:43 info: [0mGET /contacts [32m200[0m 273.473 ms - 622[0m
+2022-01-09 12:45:43 info: [0mGET /contacts/61a07a94f1d1310047b3fe60 [32m200[0m 370.567 ms - 309[0m
+2022-01-09 12:45:53 info: [0mOPTIONS /contacts [32m204[0m 0.192 ms - 0[0m
+2022-01-09 12:47:52 info: [0mOPTIONS /post [32m204[0m 0.163 ms - 0[0m
+2022-01-09 12:48:03 info: [0mPOST /post [32m201[0m 7912.167 ms - -[0m
+2022-01-09 12:54:28 info: [0mOPTIONS /post [32m204[0m 0.204 ms - 0[0m
+2022-01-09 12:54:34 info: [0mPOST /post [32m201[0m 5410.849 ms - -[0m
+2022-01-09 12:55:26 info: [0mGET /post [32m200[0m 19067.321 ms - 2298975[0m
+2022-01-09 12:58:21 info: [0mGET /post [32m200[0m 150950.687 ms - 2298975[0m
+2022-01-09 12:58:38 info: [0mGET /post [32m200[0m 8814.998 ms - 2298975[0m
+2022-01-09 12:58:42 info: [0mGET /post [32m200[0m 4090.591 ms - 2298975[0m
+2022-01-09 12:59:38 info: [0mOPTIONS /post/61dacb689b0237427c89dfe8 [32m204[0m 0.224 ms - 0[0m
+2022-01-09 12:59:55 info: [0mPUT /post/61dacb689b0237427c89dfe8 [32m200[0m 17118.190 ms - -[0m
+2022-01-09 13:00:08 info: [0mGET /post [32m200[0m 9097.688 ms - 4666332[0m
+2022-01-09 13:00:15 info: [0mGET /post [32m200[0m 5948.534 ms - 4666332[0m
+2022-01-09 13:00:33 info: [0mOPTIONS /post/61daccf49b0237427c89dfea [32m204[0m 0.330 ms - 0[0m
+2022-01-09 13:00:36 info: [0mPUT /post/61daccf49b0237427c89dfea [32m200[0m 2625.994 ms - -[0m
+2022-01-09 13:00:50 info: [0mOPTIONS /contacts [32m204[0m 0.131 ms - 0[0m
+2022-01-09 13:00:50 info: [0mGET /contacts [36m304[0m 254.517 ms - -[0m
+2022-01-09 13:01:01 info: [0mOPTIONS /contacts [32m204[0m 0.133 ms - 0[0m
+2022-01-09 13:01:02 info: [0mGET /contacts [36m304[0m 1181.959 ms - -[0m
+2022-01-09 13:01:12 info: [0mGET /post [32m200[0m 8640.558 ms - 4755359[0m
+2022-01-09 13:17:24 error: [GET] /post >> StatusCode:: 500, Message:: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+2022-01-09 13:17:24 info: [0mGET /post [31m500[0m 30042.109 ms - 301[0m
+2022-01-09 13:17:41 info: =================================
+2022-01-09 13:17:41 info: ======= ENV: development =======
+2022-01-09 13:17:41 info: 🚀 App listening on the port 5000
+2022-01-09 13:17:41 info: =================================
+2022-01-09 13:22:19 info: [0mGET /post [32m200[0m 20760.171 ms - 4755359[0m
+2022-01-09 13:26:12 error: [GET] /post >> StatusCode:: 500, Message:: connection timed out
+2022-01-09 13:26:12 info: [0mGET /post [31m500[0m 41291.491 ms - 34[0m
+2022-01-09 13:27:21 error: [GET] /post >> StatusCode:: 500, Message:: getaddrinfo ENOTFOUND cluster0-shard-00-01.n2lhm.mongodb.net
+2022-01-09 13:27:21 info: [0mGET /post [31m500[0m 23019.615 ms - 74[0m
+2022-01-09 13:30:27 error: [GET] /post >> StatusCode:: 500, Message:: connection 6 to 54.164.245.64:27017 closed
+2022-01-09 13:30:27 info: [0mGET /post [31m500[0m 182590.759 ms - 56[0m
+2022-01-09 13:42:45 info: [0mOPTIONS /contacts [32m204[0m 0.365 ms - 0[0m
+2022-01-09 13:42:47 info: [0mGET /contacts [36m304[0m 1744.516 ms - -[0m
+2022-01-09 13:43:00 info: [0mGET /post [32m200[0m 7990.567 ms - 4755359[0m

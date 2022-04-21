@@ -1,7 +1,0 @@
-2022-04-16 13:01:03 info: =================================
-2022-04-16 13:01:03 info: ======= ENV: production =======
-2022-04-16 13:01:03 info: 🚀 App listening on the port 5000
-2022-04-16 13:01:03 info: =================================
-2022-04-16 13:01:21 info: ::1 - - [16/Apr/2022:12:01:21 +0000] "GET /users HTTP/1.1" 200 320 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36"
-2022-04-16 13:01:22 info: ::1 - - [16/Apr/2022:12:01:22 +0000] "GET /images/icons/gear.png HTTP/1.1" 404 160 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36"
-2022-04-16 13:01:22 info: ::1 - - [16/Apr/2022:12:01:22 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36"
