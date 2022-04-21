@@ -4,18 +4,18 @@ import { resource } from '@/interfaces/resource.interface';
 import { IsEmail, IsString, IsObject } from 'class-validator';
 
 export class PostsDto {
-    @IsEmail()
-    public title: string;
+  @IsEmail()
+  public title: string;
 
-    @IsString()
-    public body: string;
+  @IsString()
+  public body: string;
 
-    @IsObject()
-    public image: Iimg
+  @IsObject()
+  public image: Iimg;
 
-    @IsString()
-    public author: author;
+  @IsString()
+  public author: author;
 
-    @IsString()
-    public resource: resource;
+  @IsString()
+  public resource: resource;
 }

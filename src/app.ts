@@ -67,7 +67,6 @@ class App {
     this.app.use(cookieParser());
   }
 
-
   private initializeRoutes(routes: Routes[]) {
     routes.forEach(route => {
       this.app.use('/', route.router);

@@ -4,9 +4,10 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.dbConnection = void 0;
 // const { host, port, database }: dbConfig = config.get('dbConfig');
-// +srv://admin-deeni:muha234mmad@cluster0.n2lhm.mongodb.net
+// mongodb + srv://admin-deeni:muha234mmad@cluster0.n2lhm.mongodb.net/mediaplusDB
+// mongodb://localhost:27017/mediaplusDB
 exports.dbConnection = {
-    url: `mongodb://localhost:27017/mediaplusDB`,
+    url: `mongodb+srv://admin-deeni:muha234mmad@cluster0.n2lhm.mongodb.net/mediaplusDB`,
     options: {
         useNewUrlParser: true,
         useUnifiedTopology: true,

@@ -1,19 +1,23 @@
 export interface IImage {
-    data: string;
-    name: string;
+  data: string;
+  type: string;
+  name: string;
 }
 
 export type Image = {
-    data: string,
-    name: string,
-}
+  data: string;
+  type: string;
+  name: string;
+};
 
 export interface img {
-    data: string;
-    fileName: string;
+  data: string;
+  type: string;
+  fileName: string;
 }
 
 export type Iimg = {
-    data: string;
-    fileName: string;
-}
+  data: string;
+  type: string;
+  fileName: string;
+};

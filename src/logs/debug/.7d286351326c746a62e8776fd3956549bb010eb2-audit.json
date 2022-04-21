@@ -1,0 +1,19 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/src/logs/debug/.7d286351326c746a62e8776fd3956549bb010eb2-audit.json",
+    "files": [
+        {
+            "date": 1649319166704,
+            "name": "/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/src/logs/debug/2022-04-07.log",
+            "hash": "f94b46ddc8cb85cec495b3152d81d9eb"
+        },
+        {
+            "date": 1650535276412,
+            "name": "/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/src/logs/debug/2022-04-21.log",
+            "hash": "8d2778bf1a3ffec2a2e9294e02342fd1"
+        }
+    ]
+}

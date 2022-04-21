@@ -23,10 +23,10 @@ class UserService {
     }
     async createUser(userData) {
         if ((0, util_1.isEmpty)(userData))
-            throw new HttpException_1.HttpException(400, "You're not userData");
+            throw new HttpException_1.HttpException(400, "Please fill in all fields");
         const findUser = await this.users.findOne({ email: userData.email });
         if (findUser)
-            throw new HttpException_1.HttpException(409, `You're email ${userData.email} already exists`);
+            throw new HttpException_1.HttpException(409, `This user ${userData.email} already exists`);
         const hashedPassword = await bcrypt_1.default.hash(userData.password, 10);
         const createUserData = await this.users.create(Object.assign(Object.assign({}, userData), { password: hashedPassword }));
         return createUserData;

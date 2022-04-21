@@ -1,0 +1,77 @@
+2022-04-07 09:16:18 error: [POST] /login >> StatusCode:: 409, Message:: Your email admin@admin.com is not found
+2022-04-07 09:16:31 error: [POST] /login >> StatusCode:: 409, Message:: Your email admin@admin.com is not found
+2022-04-07 09:21:00 error: uncaughtException: Invalid connection string
+MongoParseError: Invalid connection string
+    at parseConnectionString (/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongodb/lib/core/uri_parser.js:575:21)
+    at connect (/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongodb/lib/operations/connect.js:282:3)
+    at /Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongodb/lib/mongo_client.js:260:5
+    at maybePromise (/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongodb/lib/utils.js:692:3)
+    at MongoClient.connect (/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongodb/lib/mongo_client.js:256:10)
+    at /Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongoose/lib/connection.js:835:12
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongoose/lib/connection.js:832:19)
+    at /Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongoose/lib/index.js:351:10
+    at /Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongoose/lib/index.js:1149:10)
+    at Mongoose.connect (/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongoose/lib/index.js:350:20)
+    at App.connectToDatabase (/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/src/app.ts:55:12)
+    at new App (/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/src/app.ts:30:10)
+2022-04-07 09:21:04 error: uncaughtException: Invalid connection string
+MongoParseError: Invalid connection string
+    at parseConnectionString (/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongodb/lib/core/uri_parser.js:575:21)
+    at connect (/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongodb/lib/operations/connect.js:282:3)
+    at /Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongodb/lib/mongo_client.js:260:5
+    at maybePromise (/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongodb/lib/utils.js:692:3)
+    at MongoClient.connect (/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongodb/lib/mongo_client.js:256:10)
+    at /Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongoose/lib/connection.js:835:12
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongoose/lib/connection.js:832:19)
+    at /Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongoose/lib/index.js:351:10
+    at /Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongoose/lib/index.js:1149:10)
+    at Mongoose.connect (/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongoose/lib/index.js:350:20)
+    at App.connectToDatabase (/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/src/app.ts:55:12)
+    at new App (/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/src/app.ts:30:10)
+2022-04-07 09:21:13 error: uncaughtException: Invalid connection string
+MongoParseError: Invalid connection string
+    at parseConnectionString (/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongodb/lib/core/uri_parser.js:575:21)
+    at connect (/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongodb/lib/operations/connect.js:282:3)
+    at /Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongodb/lib/mongo_client.js:260:5
+    at maybePromise (/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongodb/lib/utils.js:692:3)
+    at MongoClient.connect (/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongodb/lib/mongo_client.js:256:10)
+    at /Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongoose/lib/connection.js:835:12
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongoose/lib/connection.js:832:19)
+    at /Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongoose/lib/index.js:351:10
+    at /Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongoose/lib/index.js:1149:10)
+    at Mongoose.connect (/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongoose/lib/index.js:350:20)
+    at App.connectToDatabase (/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/src/app.ts:55:12)
+    at new App (/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/src/app.ts:30:10)
+2022-04-07 09:22:06 error: uncaughtException: Invalid connection string
+MongoParseError: Invalid connection string
+    at parseConnectionString (/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongodb/lib/core/uri_parser.js:575:21)
+    at connect (/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongodb/lib/operations/connect.js:282:3)
+    at /Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongodb/lib/mongo_client.js:260:5
+    at maybePromise (/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongodb/lib/utils.js:692:3)
+    at MongoClient.connect (/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongodb/lib/mongo_client.js:256:10)
+    at /Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongoose/lib/connection.js:835:12
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongoose/lib/connection.js:832:19)
+    at /Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongoose/lib/index.js:351:10
+    at /Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongoose/lib/index.js:1149:10)
+    at Mongoose.connect (/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/node_modules/mongoose/lib/index.js:350:20)
+    at App.connectToDatabase (/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/src/app.ts:55:12)
+    at new App (/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/src/app.ts:30:10)
+2022-04-07 12:39:36 error: uncaughtException: querySrv ECONNREFUSED _mongodb._tcp.cluster0.n2lhm.mongodb.net
+Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.n2lhm.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:dns:203:19)
