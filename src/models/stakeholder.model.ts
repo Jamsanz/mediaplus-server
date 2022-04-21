@@ -1,5 +1,5 @@
 import { IStakeholder } from '@/interfaces/stakeholder.interface';
-import { model, Schema } from 'mongoose';
+import { model, Schema, Document } from 'mongoose';
 
 const stakeholderSchema = new Schema(
   {
