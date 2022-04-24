@@ -1,0 +1,9 @@
+2022-04-23 16:28:20 error: uncaughtException: querySrv ECONNREFUSED _mongodb._tcp.cluster0.n2lhm.mongodb.net
+Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.n2lhm.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:dns:203:19)
+2022-04-23 16:28:38 error: uncaughtException: querySrv ECONNREFUSED _mongodb._tcp.cluster0.n2lhm.mongodb.net
+Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.n2lhm.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:dns:203:19)
+2022-04-23 16:30:38 error: uncaughtException: querySrv ECONNREFUSED _mongodb._tcp.cluster0.n2lhm.mongodb.net
+Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.n2lhm.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:dns:203:19)
