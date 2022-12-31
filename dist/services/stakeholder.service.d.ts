@@ -2,7 +2,7 @@
 import CreateStakeholderDto from '../dtos/stakeholder.dto';
 import { IStakeholder } from '../interfaces/stakeholder.interface';
 declare class StakeholderService {
-    Stakeholder: import("mongoose").Model<IStakeholder & Document, {}, {}>;
+    Stakeholder: import("mongoose").Model<IStakeholder & import("mongoose").Document<any, any, any>, {}, {}>;
     findAllStakeholder(): Promise<IStakeholder[]>;
     findStakeholderById(StakeholderId: string): Promise<IStakeholder>;
     createStakeholder(StakeholderData: CreateStakeholderDto): Promise<IStakeholder>;

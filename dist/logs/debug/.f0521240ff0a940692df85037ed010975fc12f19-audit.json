@@ -1,0 +1,14 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/dist/logs/debug/.f0521240ff0a940692df85037ed010975fc12f19-audit.json",
+    "files": [
+        {
+            "date": 1672509533377,
+            "name": "/Users/Muhammad/Desktop/Projects/Mediaplus/mediaplus-server/dist/logs/debug/2022-12-31.log",
+            "hash": "6cd4f9201b5f51448b148a88c9fafc47"
+        }
+    ]
+}
