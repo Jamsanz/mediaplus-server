@@ -15,7 +15,6 @@ import { Routes } from '@interfaces/routes.interface';
 import errorMiddleware from '@middlewares/error.middleware';
 import { logger, stream } from '@utils/logger';
 import helmet from 'helmet';
-import PostsRoute from './routes/posts.route';
 
 class App {
   public app: express.Application;
