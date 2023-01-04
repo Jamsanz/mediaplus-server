@@ -1,4 +1,4 @@
-import { IsEmail, IsString } from 'class-validator';
+import { IsDate, IsEmail, IsString } from 'class-validator';
 
 export class CreateContactDto {
   @IsString()
@@ -18,5 +18,11 @@ export class CreateContactDto {
 
   @IsString()
   public service: string;
+
+  @IsString()
+  public updatedAt?: Date | string;
+
+  @IsString()
+  public createdAt?: Date | string;
 
 }
