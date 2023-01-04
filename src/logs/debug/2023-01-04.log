@@ -1,0 +1,70 @@
+2023-01-04 13:51:42 info: =================================
+2023-01-04 13:51:42 info: ======= ENV: development =======
+2023-01-04 13:51:42 info: 🚀 App listening on the port 5000
+2023-01-04 13:51:42 info: =================================
+2023-01-04 13:51:51 info: =================================
+2023-01-04 13:51:51 info: ======= ENV: development =======
+2023-01-04 13:51:51 info: 🚀 App listening on the port 5000
+2023-01-04 13:51:51 info: =================================
+2023-01-04 13:52:45 info: =================================
+2023-01-04 13:52:45 info: ======= ENV: development =======
+2023-01-04 13:52:45 info: 🚀 App listening on the port 5000
+2023-01-04 13:52:45 info: =================================
+2023-01-04 13:52:50 info: =================================
+2023-01-04 13:52:50 info: ======= ENV: development =======
+2023-01-04 13:52:50 info: 🚀 App listening on the port 5000
+2023-01-04 13:52:50 info: =================================
+2023-01-04 14:00:22 info: [0mOPTIONS /contacts [32m204[0m 1.969 ms - 0[0m
+2023-01-04 14:00:22 info: [0mGET /contacts [36m304[0m 263.736 ms - -[0m
+2023-01-04 14:01:09 info: [0mOPTIONS /contacts [32m204[0m 0.241 ms - 0[0m
+2023-01-04 14:01:09 info: [0mGET /contacts [32m200[0m 254.039 ms - -[0m
+2023-01-04 14:01:23 info: [0mOPTIONS /contacts/63b5788cb440ae0025787750 [32m204[0m 0.136 ms - 0[0m
+2023-01-04 14:01:24 info: [0mDELETE /contacts/63b5788cb440ae0025787750 [32m200[0m 253.612 ms - 185[0m
+2023-01-04 14:02:57 info: [0mOPTIONS /contacts [32m204[0m 0.234 ms - 0[0m
+2023-01-04 14:02:57 info: [0mGET /contacts [32m200[0m 230.143 ms - -[0m
+2023-01-04 14:02:59 info: [0mGET /contacts [36m304[0m 238.371 ms - -[0m
+2023-01-04 14:03:33 info: [0mOPTIONS /contacts [32m204[0m 0.225 ms - 0[0m
+2023-01-04 14:03:33 info: [0mGET /contacts [36m304[0m 250.642 ms - -[0m
+2023-01-04 14:06:55 info: [0mOPTIONS /contacts [32m204[0m 0.127 ms - 0[0m
+2023-01-04 14:06:55 info: [0mGET /contacts [36m304[0m 219.233 ms - -[0m
+2023-01-04 14:15:28 info: [0mOPTIONS /contacts [32m204[0m 0.158 ms - 0[0m
+2023-01-04 14:15:30 info: [0mGET /contacts [32m200[0m 2064.472 ms - 953[0m
+2023-01-04 14:15:38 info: [0mOPTIONS /contacts [32m204[0m 0.132 ms - 0[0m
+2023-01-04 14:15:44 info: [0mOPTIONS /contacts [32m204[0m 0.123 ms - 0[0m
+2023-01-04 14:15:49 info: [0mGET /contacts [32m200[0m 245.838 ms - 953[0m
+2023-01-04 14:15:50 info: [0mGET /contacts/620e70f5ea462f0047c64cbc [32m200[0m 255.634 ms - 281[0m
+2023-01-04 14:21:23 info: [0mOPTIONS /contacts [32m204[0m 8.288 ms - 0[0m
+2023-01-04 14:21:23 info: [0mGET /contacts [36m304[0m 249.087 ms - -[0m
+2023-01-04 14:21:36 info: [0mGET /contacts [32m200[0m 239.237 ms - 953[0m
+2023-01-04 14:21:36 info: [0mGET /contacts/620e70f5ea462f0047c64cbc [32m200[0m 239.424 ms - 281[0m
+2023-01-04 14:21:40 info: [0mGET /contacts [32m200[0m 298.621 ms - 953[0m
+2023-01-04 14:21:41 info: [0mGET /contacts/620e70f5ea462f0047c64cbc [32m200[0m 235.807 ms - 281[0m
+2023-01-04 14:22:05 info: [0mOPTIONS /contacts [32m204[0m 0.155 ms - 0[0m
+2023-01-04 14:22:05 info: [0mGET /contacts [36m304[0m 252.485 ms - -[0m
+2023-01-04 14:22:57 info: [0mGET /contacts [32m200[0m 306.879 ms - 953[0m
+2023-01-04 14:22:57 info: [0mGET /contacts/620e70f5ea462f0047c64cbc [32m200[0m 232.101 ms - 281[0m
+2023-01-04 14:23:18 info: [0mOPTIONS /contacts [32m204[0m 0.145 ms - 0[0m
+2023-01-04 14:23:18 info: [0mGET /contacts [36m304[0m 466.411 ms - -[0m
+2023-01-04 14:23:26 info: [0mOPTIONS /contacts [32m204[0m 0.140 ms - 0[0m
+2023-01-04 14:23:33 info: [0mOPTIONS /contacts [32m204[0m 0.138 ms - 0[0m
+2023-01-04 14:23:38 info: [0mOPTIONS /contacts [32m204[0m 0.133 ms - 0[0m
+2023-01-04 14:23:43 info: [0mOPTIONS /contacts [32m204[0m 0.120 ms - 0[0m
+2023-01-04 14:23:48 info: [0mGET /contacts [32m200[0m 278.392 ms - 953[0m
+2023-01-04 14:23:48 info: [0mGET /contacts/620e70f5ea462f0047c64cbc [32m200[0m 295.783 ms - 281[0m
+2023-01-04 14:23:50 info: [0mGET /contacts [32m200[0m 497.778 ms - 953[0m
+2023-01-04 14:23:50 info: [0mGET /contacts/620e70f5ea462f0047c64cbc [32m200[0m 272.719 ms - 281[0m
+2023-01-04 14:23:54 info: [0mOPTIONS /contacts [32m204[0m 0.111 ms - 0[0m
+2023-01-04 14:24:33 info: [0mOPTIONS /contacts [32m204[0m 0.111 ms - 0[0m
+2023-01-04 14:24:34 info: [0mGET /contacts [36m304[0m 238.958 ms - -[0m
+2023-01-04 14:24:43 info: [0mOPTIONS /contacts [32m204[0m 0.188 ms - 0[0m
+2023-01-04 14:24:43 info: [0mGET /contacts [36m304[0m 227.330 ms - -[0m
+2023-01-04 14:24:53 info: [0mOPTIONS /contacts [32m204[0m 0.110 ms - 0[0m
+2023-01-04 14:24:53 info: [0mGET /contacts [36m304[0m 230.262 ms - -[0m
+2023-01-04 14:25:05 info: [0mOPTIONS /contacts [32m204[0m 0.107 ms - 0[0m
+2023-01-04 14:25:05 info: [0mGET /contacts [36m304[0m 245.098 ms - -[0m
+2023-01-04 14:25:14 info: [0mOPTIONS /contacts [32m204[0m 0.107 ms - 0[0m
+2023-01-04 14:25:14 info: [0mGET /contacts [36m304[0m 243.755 ms - -[0m
+2023-01-04 14:25:22 info: [0mOPTIONS /contacts [32m204[0m 0.115 ms - 0[0m
+2023-01-04 14:25:22 info: [0mGET /contacts [36m304[0m 231.175 ms - -[0m
+2023-01-04 14:25:40 info: [0mOPTIONS /contacts [32m204[0m 0.124 ms - 0[0m
+2023-01-04 14:25:40 info: [0mGET /contacts [36m304[0m 238.412 ms - -[0m
