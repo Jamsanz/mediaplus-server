@@ -32,7 +32,7 @@ class ContactsController {
       const ContactData= req.body;
       const createContactData: Contact = await this.contactService.createContact(ContactData);
 
-      res.status(201).json({ data: createContactData, message: 'Successfully Submitted' });
+      res.status(201).json({ data: createContactData, message: 'Request Successfully Submitted' });
     } catch (error) {
       next(error);
     }
