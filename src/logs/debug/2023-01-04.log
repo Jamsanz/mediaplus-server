@@ -116,3 +116,11 @@
 2023-01-04 18:49:28 info: [0mPOST /contacts [32m201[0m 1578.899 ms - 320[0m
 2023-01-04 18:49:29 info: [0mOPTIONS /stakeholder [32m204[0m 0.133 ms - 0[0m
 2023-01-04 18:49:29 info: [0mGET /stakeholder [32m200[0m 263.605 ms - -[0m
+2023-01-04 19:02:59 info: =================================
+2023-01-04 19:02:59 info: ======= ENV: development =======
+2023-01-04 19:02:59 info: 🚀 App listening on the port 5000
+2023-01-04 19:02:59 info: =================================
+2023-01-04 19:03:52 info: [0mPOST /contacts [32m201[0m 3820.858 ms - 283[0m
+2023-01-04 19:04:16 info: [0mDELETE /contacts/63b5bf843bf77608ac34bd6a [32m200[0m 258.210 ms - 260[0m
+2023-01-04 19:04:27 error: [GET] /contacts/63b5bf843bf77608ac34bd6a >> StatusCode:: 409, Message:: No contact
+2023-01-04 19:04:27 info: [0mGET /contacts/63b5bf843bf77608ac34bd6a [33m409[0m 236.208 ms - 24[0m
