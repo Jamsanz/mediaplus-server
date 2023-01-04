@@ -1,0 +1,11 @@
+2023-01-04 18:00:07 error: [GET] /contacts >> StatusCode:: 500, Message:: Operation `contacts.find()` buffering timed out after 10000ms
+2023-01-04 18:00:08 error: uncaughtException: querySrv ESERVFAIL _mongodb._tcp.cluster0.n2lhm.mongodb.net
+Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.n2lhm.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:dns:279:19)
+2023-01-04 18:01:00 error: [GET] /contacts >> StatusCode:: 500, Message:: Operation `contacts.find()` buffering timed out after 10000ms
+2023-01-04 18:01:14 error: uncaughtException: querySrv ESERVFAIL _mongodb._tcp.cluster0.n2lhm.mongodb.net
+Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.n2lhm.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:dns:279:19)
+2023-01-04 18:12:14 error: [GET] /stakeholder >> StatusCode:: 500, Message:: connection 3 to 54.164.245.64:27017 closed
+2023-01-04 18:46:22 error: [POST] /contacts >> StatusCode:: 500, Message:: connection timed out
+2023-01-04 18:47:52 error: [GET] /stakeholder >> StatusCode:: 500, Message:: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/

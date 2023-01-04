@@ -68,3 +68,51 @@
 2023-01-04 14:25:22 info: [0mGET /contacts [36m304[0m 231.175 ms - -[0m
 2023-01-04 14:25:40 info: [0mOPTIONS /contacts [32m204[0m 0.124 ms - 0[0m
 2023-01-04 14:25:40 info: [0mGET /contacts [36m304[0m 238.412 ms - -[0m
+2023-01-04 17:59:38 info: =================================
+2023-01-04 17:59:38 info: ======= ENV: development =======
+2023-01-04 17:59:38 info: 🚀 App listening on the port 5000
+2023-01-04 17:59:38 info: =================================
+2023-01-04 17:59:57 info: [0mOPTIONS /contacts [32m204[0m 1.291 ms - 0[0m
+2023-01-04 18:00:06 info: [0mGET /contacts [0m-[0m - ms - -[0m
+2023-01-04 18:00:07 error: [GET] /contacts >> StatusCode:: 500, Message:: Operation `contacts.find()` buffering timed out after 10000ms
+2023-01-04 18:00:07 info: [0mOPTIONS /contacts [32m204[0m 0.132 ms - 0[0m
+2023-01-04 18:00:44 info: =================================
+2023-01-04 18:00:44 info: ======= ENV: development =======
+2023-01-04 18:00:44 info: 🚀 App listening on the port 5000
+2023-01-04 18:00:44 info: =================================
+2023-01-04 18:00:50 info: [0mOPTIONS /contacts [32m204[0m 1.212 ms - 0[0m
+2023-01-04 18:01:00 error: [GET] /contacts >> StatusCode:: 500, Message:: Operation `contacts.find()` buffering timed out after 10000ms
+2023-01-04 18:01:00 info: [0mGET /contacts [31m500[0m 10009.438 ms - 75[0m
+2023-01-04 18:02:51 info: =================================
+2023-01-04 18:02:51 info: ======= ENV: development =======
+2023-01-04 18:02:51 info: 🚀 App listening on the port 5000
+2023-01-04 18:02:51 info: =================================
+2023-01-04 18:02:57 info: [0mOPTIONS /contacts [32m204[0m 2.087 ms - 0[0m
+2023-01-04 18:02:58 info: [0mGET /contacts [32m200[0m 860.255 ms - 953[0m
+2023-01-04 18:03:17 info: [0mOPTIONS /stakeholder [32m204[0m 0.271 ms - 0[0m
+2023-01-04 18:03:17 info: [0mGET /stakeholder [36m304[0m 258.248 ms - -[0m
+2023-01-04 18:04:59 info: [0mOPTIONS /stakeholder [32m204[0m 0.132 ms - 0[0m
+2023-01-04 18:04:59 info: [0mGET /stakeholder [36m304[0m 262.001 ms - -[0m
+2023-01-04 18:06:41 info: [0mOPTIONS /stakeholder [32m204[0m 0.228 ms - 0[0m
+2023-01-04 18:06:41 info: [0mGET /stakeholder [36m304[0m 253.521 ms - -[0m
+2023-01-04 18:07:13 info: [0mOPTIONS /stakeholder [32m204[0m 0.129 ms - 0[0m
+2023-01-04 18:07:13 info: [0mGET /stakeholder [36m304[0m 276.168 ms - -[0m
+2023-01-04 18:07:19 info: [0mOPTIONS /stakeholder [32m204[0m 0.130 ms - 0[0m
+2023-01-04 18:07:19 info: [0mGET /stakeholder [36m304[0m 264.021 ms - -[0m
+2023-01-04 18:08:36 info: [0mOPTIONS /stakeholder [32m204[0m 0.158 ms - 0[0m
+2023-01-04 18:12:14 error: [GET] /stakeholder >> StatusCode:: 500, Message:: connection 3 to 54.164.245.64:27017 closed
+2023-01-04 18:12:14 info: [0mGET /stakeholder [31m500[0m 217751.860 ms - 56[0m
+2023-01-04 18:45:24 info: =================================
+2023-01-04 18:45:24 info: ======= ENV: development =======
+2023-01-04 18:45:24 info: 🚀 App listening on the port 5000
+2023-01-04 18:45:24 info: =================================
+2023-01-04 18:45:42 info: [0mOPTIONS /stakeholder [32m204[0m 1.421 ms - 0[0m
+2023-01-04 18:45:52 info: [0mOPTIONS /contacts [32m204[0m 0.240 ms - 0[0m
+2023-01-04 18:46:22 error: [POST] /contacts >> StatusCode:: 500, Message:: connection timed out
+2023-01-04 18:46:22 info: [0mPOST /contacts [31m500[0m 30036.672 ms - 34[0m
+2023-01-04 18:47:52 error: [GET] /stakeholder >> StatusCode:: 500, Message:: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+2023-01-04 18:47:52 info: [0mGET /stakeholder [31m500[0m 130685.577 ms - 301[0m
+2023-01-04 18:49:27 info: [0mOPTIONS /contacts [32m204[0m 0.153 ms - 0[0m
+2023-01-04 18:49:28 info: [0mPOST /contacts [32m201[0m 1578.899 ms - 320[0m
+2023-01-04 18:49:29 info: [0mOPTIONS /stakeholder [32m204[0m 0.133 ms - 0[0m
+2023-01-04 18:49:29 info: [0mGET /stakeholder [32m200[0m 263.605 ms - -[0m
