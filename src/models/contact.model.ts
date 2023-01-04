@@ -4,12 +4,30 @@ import { Schema, model, Document } from 'mongoose';
 // The Contact page schema
 const contactSchema = new Schema(
   {
-    name: String,
-    email: String,
-    phone: String,
-    status: String,
-    service: String,
-    message: String,
+    name: {
+      type: String,
+      required: true,
+    },
+    email: {
+      type: String,
+      required: true,
+    },
+    phone: {
+      type: String,
+      required: true,
+    },
+    status: {
+      type: String,
+      required: true,
+    },
+    service: {
+      type: String,
+      required: true,
+    },
+    message: {
+      type: String,
+      required: true,
+    },
   },
   { timestamps: true },
 );
