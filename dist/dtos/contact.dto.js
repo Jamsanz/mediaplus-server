@@ -29,5 +29,13 @@ class CreateContactDto {
     (0, class_validator_1.IsString)(),
     (0, tslib_1.__metadata)("design:type", String)
 ], CreateContactDto.prototype, "service", void 0);
+(0, tslib_1.__decorate)([
+    (0, class_validator_1.IsString)(),
+    (0, tslib_1.__metadata)("design:type", Object)
+], CreateContactDto.prototype, "updatedAt", void 0);
+(0, tslib_1.__decorate)([
+    (0, class_validator_1.IsString)(),
+    (0, tslib_1.__metadata)("design:type", Object)
+], CreateContactDto.prototype, "createdAt", void 0);
 exports.CreateContactDto = CreateContactDto;
 //# sourceMappingURL=contact.dto.js.map

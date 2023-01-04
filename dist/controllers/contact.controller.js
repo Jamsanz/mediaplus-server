@@ -28,7 +28,7 @@ class ContactsController {
             try {
                 const ContactData = req.body;
                 const createContactData = await this.contactService.createContact(ContactData);
-                res.status(201).json({ data: createContactData, message: 'Request Successfully submitted' });
+                res.status(201).json({ data: createContactData, message: 'Request Successfully Submitted' });
             }
             catch (error) {
                 next(error);

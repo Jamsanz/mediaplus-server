@@ -5,7 +5,6 @@ process.env['NODE_CONFIG_DIR'] = __dirname + '/configs';
 const compression_1 = (0, tslib_1.__importDefault)(require("compression"));
 const cookie_parser_1 = (0, tslib_1.__importDefault)(require("cookie-parser"));
 const cors_1 = (0, tslib_1.__importDefault)(require("cors"));
-const config_1 = (0, tslib_1.__importDefault)(require("config"));
 const express_1 = (0, tslib_1.__importDefault)(require("express"));
 const hpp_1 = (0, tslib_1.__importDefault)(require("hpp"));
 const morgan_1 = (0, tslib_1.__importDefault)(require("morgan"));
@@ -45,8 +44,8 @@ class App {
         (0, mongoose_1.connect)(_databases_1.dbConnection.url, _databases_1.dbConnection.options);
     }
     initializeMiddlewares() {
-        this.app.use((0, morgan_1.default)(config_1.default.get('log.format'), { stream: logger_1.stream }));
-        this.app.use((0, cors_1.default)({ origin: config_1.default.get('cors.origin'), credentials: config_1.default.get('cors.credentials') }));
+        this.app.use((0, morgan_1.default)('dev', { stream: logger_1.stream }));
+        this.app.use((0, cors_1.default)({ origin: '*', credentials: true }));
         this.app.use((0, helmet_1.default)());
         this.app.use((0, hpp_1.default)());
         this.app.use((0, compression_1.default)());

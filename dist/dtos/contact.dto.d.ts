@@ -5,4 +5,6 @@ export declare class CreateContactDto {
     status: string;
     message: string;
     service: string;
+    updatedAt?: Date | string;
+    createdAt?: Date | string;
 }
