@@ -124,3 +124,29 @@
 2023-01-04 19:04:16 info: [0mDELETE /contacts/63b5bf843bf77608ac34bd6a [32m200[0m 258.210 ms - 260[0m
 2023-01-04 19:04:27 error: [GET] /contacts/63b5bf843bf77608ac34bd6a >> StatusCode:: 409, Message:: No contact
 2023-01-04 19:04:27 info: [0mGET /contacts/63b5bf843bf77608ac34bd6a [33m409[0m 236.208 ms - 24[0m
+2023-01-04 21:06:25 info: =================================
+2023-01-04 21:06:25 info: ======= ENV: development =======
+2023-01-04 21:06:25 info: 🚀 App listening on the port 5000
+2023-01-04 21:06:25 info: =================================
+2023-01-04 21:06:54 info: [0mOPTIONS /contacts [32m204[0m 1.319 ms - 0[0m
+2023-01-04 21:06:54 info: [0mGET /contacts [32m200[0m 274.742 ms - -[0m
+2023-01-04 21:11:04 info: [0mOPTIONS /contacts [32m204[0m 0.200 ms - 0[0m
+2023-01-04 21:11:14 info: [0mGET /contacts [36m304[0m 9726.361 ms - -[0m
+2023-01-04 21:11:14 info: [0mGET /contacts [36m304[0m 269.468 ms - -[0m
+2023-01-04 21:11:45 info: [0mOPTIONS /contacts [32m204[0m 0.142 ms - 0[0m
+2023-01-04 21:11:45 info: [0mGET /contacts [36m304[0m 295.524 ms - -[0m
+2023-01-04 21:12:46 info: [0mOPTIONS /contacts [32m204[0m 0.148 ms - 0[0m
+2023-01-04 21:12:48 info: [0mGET /contacts [36m304[0m 1703.092 ms - -[0m
+2023-01-04 21:12:56 info: [0mGET /contacts [36m304[0m 5273.189 ms - -[0m
+2023-01-04 21:13:04 info: [0mGET /contacts [32m200[0m 1159.271 ms - 1224[0m
+2023-01-04 21:13:04 info: [0mGET /contacts/620e70f5ea462f0047c64cbc [32m200[0m 392.519 ms - 281[0m
+2023-01-04 21:13:08 info: [0mOPTIONS /contacts [32m204[0m 0.136 ms - 0[0m
+2023-01-04 21:13:08 info: [0mGET /contacts [36m304[0m 318.748 ms - -[0m
+2023-01-04 21:13:12 info: [0mGET /contacts [32m200[0m 383.677 ms - 1224[0m
+2023-01-04 21:13:12 info: [0mGET /contacts/63b5db84cf7e3800256478d8 [32m200[0m 245.409 ms - 299[0m
+2023-01-04 21:13:17 info: [0mOPTIONS /contacts [32m204[0m 0.293 ms - 0[0m
+2023-01-04 21:13:20 info: [0mGET /contacts [36m304[0m 2223.989 ms - -[0m
+2023-01-04 21:13:45 info: [0mOPTIONS /contacts [32m204[0m 0.142 ms - 0[0m
+2023-01-04 21:13:49 info: [0mGET /contacts [0m-[0m - ms - -[0m
+2023-01-04 21:13:51 info: [0mOPTIONS /contacts [32m204[0m 0.141 ms - 0[0m
+2023-01-04 21:13:54 info: [0mGET /contacts [32m200[0m 2387.296 ms - -[0m
