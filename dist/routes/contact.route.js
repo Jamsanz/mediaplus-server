@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const tslib_1 = require("tslib");
 const express_1 = require("express");
-const contact_controller_1 = (0, tslib_1.__importDefault)(require("../controllers/contact.controller"));
+const contact_controller_1 = (0, tslib_1.__importDefault)(require("@controllers/contact.controller"));
 class ContactsRoute {
     constructor() {
         this.path = '/contacts';

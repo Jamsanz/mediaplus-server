@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const tslib_1 = require("tslib");
-const stakeholder_service_1 = (0, tslib_1.__importDefault)(require("../services/stakeholder.service"));
+const stakeholder_service_1 = (0, tslib_1.__importDefault)(require("@services/stakeholder.service"));
 class StakeholderController {
     constructor() {
         this.StakeholderService = new stakeholder_service_1.default();

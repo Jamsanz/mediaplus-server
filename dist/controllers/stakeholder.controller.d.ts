@@ -1,5 +1,5 @@
 import { NextFunction, Request, Response } from 'express';
-import StakeholderService from '../services/stakeholder.service';
+import StakeholderService from '@services/stakeholder.service';
 declare class StakeholderController {
     StakeholderService: StakeholderService;
     getStakeholder: (req: Request, res: Response, next: NextFunction) => Promise<void>;

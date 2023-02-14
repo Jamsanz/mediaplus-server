@@ -1,6 +1,6 @@
 /// <reference types="mongoose" />
-import { CreateUserDto } from '../dtos/users.dto';
-import { User } from '../interfaces/users.interface';
+import { CreateUserDto } from '@dtos/users.dto';
+import { User } from '@interfaces/users.interface';
 declare class UserService {
     users: import("mongoose").Model<User & import("mongoose").Document<any, any, any>, {}, {}>;
     findAllUser(): Promise<User[]>;

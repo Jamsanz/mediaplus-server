@@ -11,9 +11,9 @@ const morgan_1 = (0, tslib_1.__importDefault)(require("morgan"));
 const mongoose_1 = require("mongoose");
 const swagger_jsdoc_1 = (0, tslib_1.__importDefault)(require("swagger-jsdoc"));
 const swagger_ui_express_1 = (0, tslib_1.__importDefault)(require("swagger-ui-express"));
-const _databases_1 = require("./databases");
-const error_middleware_1 = (0, tslib_1.__importDefault)(require("./middlewares/error.middleware"));
-const logger_1 = require("./utils/logger");
+const _databases_1 = require("@databases");
+const error_middleware_1 = (0, tslib_1.__importDefault)(require("@middlewares/error.middleware"));
+const logger_1 = require("@utils/logger");
 const helmet_1 = (0, tslib_1.__importDefault)(require("helmet"));
 class App {
     constructor(routes) {

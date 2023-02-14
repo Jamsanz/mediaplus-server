@@ -1,7 +1,7 @@
 /// <reference types="mongoose" />
-import { CreateUserDto } from '../dtos/users.dto';
-import { TokenData } from '../interfaces/auth.interface';
-import { User } from '../interfaces/users.interface';
+import { CreateUserDto } from '@dtos/users.dto';
+import { TokenData } from '@interfaces/auth.interface';
+import { User } from '@interfaces/users.interface';
 declare class AuthService {
     users: import("mongoose").Model<User & import("mongoose").Document<any, any, any>, {}, {}>;
     signup(userData: CreateUserDto): Promise<User>;

@@ -1,6 +1,6 @@
 "use strict";
 // import config from 'config';
-// import { dbConfig } from '../interfaces/db.interface';
+// import { dbConfig } from '@interfaces/db.interface';
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.dbConnection = void 0;
 // const { host, port, database }: dbConfig = config.get('dbConfig');

@@ -4,9 +4,9 @@ const tslib_1 = require("tslib");
 const bcrypt_1 = (0, tslib_1.__importDefault)(require("bcrypt"));
 const config_1 = (0, tslib_1.__importDefault)(require("config"));
 const jsonwebtoken_1 = (0, tslib_1.__importDefault)(require("jsonwebtoken"));
-const HttpException_1 = require("../exceptions/HttpException");
-const users_model_1 = (0, tslib_1.__importDefault)(require("../models/users.model"));
-const util_1 = require("../utils/util");
+const HttpException_1 = require("@exceptions/HttpException");
+const users_model_1 = (0, tslib_1.__importDefault)(require("@models/users.model"));
+const util_1 = require("@utils/util");
 class AuthService {
     constructor() {
         this.users = users_model_1.default;

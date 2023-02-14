@@ -1,6 +1,6 @@
 /// <reference types="mongoose" />
-import { PostsDto } from '../dtos/posts.dto';
-import { IPost } from '../interfaces/posts.interface';
+import { PostsDto } from '@dtos/posts.dto';
+import { IPost } from '@interfaces/posts.interface';
 declare class PostsService {
     Posts: import("mongoose").Model<IPost & import("mongoose").Document<any, any, any>, {}, {}>;
     findAllPosts(): Promise<IPost[]>;
