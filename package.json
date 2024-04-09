@@ -8,7 +8,7 @@
     "node": "v16.x"
   },
   "scripts": {
-    "start": "node dist/server.js",
+    "start": "node ./dist/server.js",
     "dev": "cross-env NODE_ENV=development nodemon",
     "build": "tsc",
     "test": "jest --forceExit --detectOpenHandles",
