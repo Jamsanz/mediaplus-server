@@ -1,8 +1,8 @@
-import CreateStakeholderDto from '@dtos/stakeholder.dto';
-import { HttpException } from '@exceptions/HttpException';
-import { IStakeholder } from '@interfaces/stakeholder.interface';
-import stakeholderModel from '@models/stakeholder.model';
-import { isEmpty } from '@utils/util';
+import CreateStakeholderDto from '../dtos/stakeholder.dto';
+import { HttpException } from '../exceptions/HttpException';
+import { IStakeholder } from '../interfaces/stakeholder.interface';
+import stakeholderModel from '../models/stakeholder.model';
+import { isEmpty } from '../utils/util';
 
 class StakeholderService {
   public Stakeholder = stakeholderModel;

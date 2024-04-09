@@ -1,8 +1,8 @@
-import { PostsDto } from '@dtos/posts.dto';
-import { HttpException } from '@exceptions/HttpException';
-import { IPost } from '@interfaces/posts.interface';
-import PostModel from '@models/posts.model';
-import { isEmpty } from '@utils/util';
+import { PostsDto } from '../dtos/posts.dto';
+import { HttpException } from '../exceptions/HttpException';
+import { IPost } from '../interfaces/posts.interface';
+import PostModel from '../models/posts.model';
+import { isEmpty } from '../utils/util';
 
 class PostsService {
   public Posts = PostModel;

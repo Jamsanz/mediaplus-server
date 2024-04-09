@@ -1,6 +1,6 @@
 import { Router } from 'express';
-import PostsController from '@controllers/posts.controller';
-import { Routes } from '@interfaces/routes.interface';
+import PostsController from '../controllers/posts.controller';
+import { Routes } from '../interfaces/routes.interface';
 
 class PostsRoute implements Routes {
   public path = '/post';

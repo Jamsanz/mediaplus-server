@@ -1,6 +1,6 @@
 import { Router } from 'express';
-import StakeholderController from '@controllers/stakeholder.controller';
-import { Routes } from '@interfaces/routes.interface';
+import StakeholderController from '../controllers/stakeholder.controller';
+import { Routes } from '../interfaces/routes.interface';
 
 class StakeholderRoute implements Routes {
   public path = '/stakeholder';

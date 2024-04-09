@@ -1,7 +1,7 @@
 import { NextFunction, Request, Response } from 'express';
-import { PostsDto } from '@dtos/posts.dto';
-import { IPost } from '@interfaces/posts.interface';
-import PostsService from '@services/posts.service';
+import PostsService from '../services/posts.service';
+import { IPost } from '../interfaces/posts.interface';
+import { PostsDto } from '../dtos/posts.dto';
 
 class PostsController {
   public postsService = new PostsService();

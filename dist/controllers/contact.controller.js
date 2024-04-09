@@ -2,6 +2,9 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const tslib_1 = require("tslib");
 const contact_service_1 = (0, tslib_1.__importDefault)(require("../services/contact.service"));
+// import { CreateContactDto } from '../dtos/contact.dto';
+// import { Contact } from '../interfaces/contact.interface';
+// import contactService from '../services/contact.service';
 class ContactsController {
     constructor() {
         this.contactService = new contact_service_1.default();

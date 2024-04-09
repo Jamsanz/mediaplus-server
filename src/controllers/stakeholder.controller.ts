@@ -1,7 +1,7 @@
 import { NextFunction, Request, Response } from 'express';
-import CreateStakeholderDto from '@dtos/stakeholder.dto';
-import { IStakeholder } from '@interfaces/stakeholder.interface';
-import StakeholderService from '@services/stakeholder.service';
+import StakeholderService from '../services/stakeholder.service';
+import { IStakeholder } from '../interfaces/stakeholder.interface';
+import CreateStakeholderDto from '../dtos/stakeholder.dto';
 
 class StakeholderController {
   public StakeholderService = new StakeholderService();

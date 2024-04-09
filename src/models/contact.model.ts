@@ -1,5 +1,6 @@
-import { Contact } from '@/interfaces/contact.interface';
+
 import { Schema, model, Document } from 'mongoose';
+import { Contact } from '../interfaces/contact.interface';
 
 // The Contact page schema
 const contactSchema = new Schema(

@@ -1,7 +1,10 @@
 import { NextFunction, Request, Response } from 'express';
-import { CreateContactDto } from '@dtos/contact.dto';
-import { Contact } from '@interfaces/contact.interface';
-import contactService from '@services/contact.service';
+import contactService from '../services/contact.service';
+import { Contact } from '../interfaces/contact.interface';
+import { CreateContactDto } from '../dtos/contact.dto';
+// import { CreateContactDto } from '../dtos/contact.dto';
+// import { Contact } from '../interfaces/contact.interface';
+// import contactService from '../services/contact.service';
 
 class ContactsController {
   public contactService = new contactService();

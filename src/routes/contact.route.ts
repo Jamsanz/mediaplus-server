@@ -1,6 +1,6 @@
 import { Router } from 'express';
-import ContactsController from '@controllers/contact.controller';
-import { Routes } from '@interfaces/routes.interface';
+import ContactsController from '../controllers/contact.controller';
+import { Routes } from '../interfaces/routes.interface';
 
 class ContactsRoute implements Routes {
   public path = '/contacts';

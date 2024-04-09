@@ -1,6 +1,6 @@
-import { author } from '@/interfaces/author.interface';
-import { Iimg } from '@/interfaces/image.interface';
-import { resource } from '@/interfaces/resource.interface';
+import { author } from '..//interfaces/author.interface';
+import { Iimg } from '..//interfaces/image.interface';
+import { resource } from '..//interfaces/resource.interface';
 import { IsEmail, IsString, IsObject } from 'class-validator';
 
 export class PostsDto {

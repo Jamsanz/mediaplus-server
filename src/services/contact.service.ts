@@ -1,8 +1,8 @@
-import { CreateContactDto } from '@dtos/contact.dto';
-import { HttpException } from '@exceptions/HttpException';
-import { Contact } from '@interfaces/contact.interface';
-import contactModel from '@models/contact.model';
-import { isEmpty } from '@utils/util';
+import { CreateContactDto } from '../dtos/contact.dto';
+import { HttpException } from '../exceptions/HttpException';
+import { Contact } from '../interfaces/contact.interface';
+import contactModel from '../models/contact.model';
+import { isEmpty } from '../utils/util';
 
 class UserService {
   public contacts = contactModel;
